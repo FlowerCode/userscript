@@ -22,7 +22,6 @@
                 {
                     console.log('Removing node: ' + node.id);
                     node.parentNode.removeChild(node);
-                    observer.disconnect();
                 }
             }
 
